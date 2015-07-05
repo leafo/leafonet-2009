@@ -1,0 +1,451 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ArOb	template.php	/^class ArOb$/;"	c
+Blog	blog.php	/^class Blog$/;"	c
+Board	bbs.php	/^class Board$/;"	c
+Compiler	compiler.php	/^class Compiler $/;"	c
+DBHandle	database.php	/^class DBHandle {$/;"	c
+DBResult	database.php	/^class DBResult {$/;"	c
+FAILED	validator.php	/^	public static $FAILED = 2;$/;"	v
+Folder	folders.php	/^class Folder $/;"	c
+Folders	folders.php	/^class Folders {$/;"	c
+Guest	user.php	/^class Guest {$/;"	c
+LIST_STATE	parser.php	/^	public static $LIST_STATE = 1;$/;"	v
+Linker	util.php	/^class Linker $/;"	c
+NO_STATE	parser.php	/^	public static $NO_STATE = 0;$/;"	v
+NO_SUBMIT	validator.php	/^	public static $NO_SUBMIT = 3;$/;"	v
+PRE_STATE	parser.php	/^	public static $PRE_STATE = 2;$/;"	v
+Page	util.php	/^class Page$/;"	c
+SUCCESS	validator.php	/^	public static $SUCCESS = 1;$/;"	v
+Session	todo/session.php	/^class Session {$/;"	c
+SimpleLink	util.php	/^class SimpleLink extends Linker$/;"	c
+TAG_STATE	parser.php	/^	public static $TAG_STATE = 3; \/\/ inside a special tag $/;"	v
+Tags	tags.php	/^class Tags$/;"	c
+Template	template.php	/^class Template $/;"	c
+User	user.php	/^class User {$/;"	c
+Util	todo/util.php	/^class Util$/;"	c
+Util	util.php	/^class Util $/;"	c
+Validator	validator.php	/^class Validator $/;"	c
+WikiParser	parser.php	/^class WikiParser$/;"	c
+__construct	compiler.php	/^    public function __construct($fname)$/;"	f
+__construct	database.php	/^	function __construct(&$r) $/;"	f
+__construct	database.php	/^	public function __construct($username, $password, $/;"	f
+__construct	folders.php	/^	protected function __construct($lft, $rgt, $name, $folders) $/;"	f
+__construct	folders.php	/^	public function __construct($table = 'folders') $/;"	f
+__construct	template.php	/^	public function __construct($template_dir = null, $/;"	f
+__construct	template.php	/^	public function __construct(&$array)$/;"	f
+__construct	todo/session.php	/^	public function __construct()$/;"	f
+__construct	user.php	/^	private function __construct()$/;"	f
+__construct	util.php	/^	public function __construct($base_url = null)$/;"	f
+__construct	util.php	/^	public function __construct() $/;"	f
+__construct	validator.php	/^	private function __construct($vars, $trigger) $/;"	f
+__destruct	todo/session.php	/^	public function __destruct()$/;"	f
+__get	template.php	/^	public function __get($get)$/;"	f
+__get	template.php	/^	public function __get($what) $/;"	f
+__get	user.php	/^	public function __get($name) {$/;"	f
+__get	util.php	/^	public function __get($get) $/;"	f
+__get	validator.php	/^	public function __get($name)$/;"	f
+__set	template.php	/^	public function __set($set, $value) $/;"	f
+__set	template.php	/^	public function __set($what, $value)$/;"	f
+__set	user.php	/^	public function __set($name, $value) {$/;"	f
+__set	util.php	/^	public function __set($set, $value)$/;"	f
+__toString	template.php	/^	public function __toString()$/;"	f
+__tostring	template.php	/^	public function __tostring()$/;"	f
+_home	util.php	/^	public function _home()$/;"	f
+a	blog.php	/^		$a = $r->fetchAssoc();$/;"	v
+advance	compiler.php	/^    private function advance($n) $/;"	f
+affected	database.php	/^	public function affected() {$/;"	f
+affected	database.php	/^	public static function affected()$/;"	f
+aid	tags.php	/^		$aid = intval($aid);$/;"	v
+amount	folders.php	/^		$amount = intval($amount);$/;"	v
+anymore	folders.php	/^ * I don't think I use this class anymore$/;"	c
+append	template.php	/^	public function append($var, $what)$/;"	f
+args	compiler.php	/^		$args = $this->consume_args();$/;"	v
+args	compiler.php	/^		$args = array();$/;"	v
+args	parser.php	/^		$args = $t[3];$/;"	v
+args	template.php	/^		$args = func_get_args();$/;"	v
+args	template.php	/^	private function callFunction($name, $args = array())$/;"	v
+article	blog.php	/^		$article = Blog::context($a, true, $raw);$/;"	v
+articles	blog.php	/^		$articles = array();	$/;"	v
+articles	blog.php	/^		$articles = array();$/;"	v
+b	bbs.php	/^		$b = db::query('select '.($basic ? : 'name, rgt, lft ' : '* ').$/;"	v
+basic	bbs.php	/^	public static function getBoard($id, $basic = true)$/;"	v
+bindFunction	template.php	/^	public function bindFunction($name, $func)$/;"	f
+body	blog.php	/^	private static function getForContext($where, $body = true, $join = array(), $select = '')$/;"	v
+body	blog.php	/^	public static function context($row, $body = false, $raw = false)$/;"	v
+body	blog.php	/^	public static function getFromTag($tag, $body = false)$/;"	v
+body	blog.php	/^	public static function getWhere($where, $body = false, $raw = true)$/;"	v
+body	blog.php	/^	public static function latest($from = null, $body = true)$/;"	v
+c	folders.php	/^		$c = count($array);$/;"	v
+c	parser.php	/^		foreach ($callbacks as $c=>$p) {$/;"	v
+c	tags.php	/^		$c = count($array);$/;"	v
+c	template.php	/^		$c = new Compiler($fname);$/;"	v
+callFunction	template.php	/^	private function callFunction($name, $args = array())$/;"	f
+callbacks	parser.php	/^		$callbacks = array($/;"	v
+cap	compiler.php	/^		$cap = array();$/;"	v
+changed	todo/session.php	/^				$changed = true;$/;"	v
+changed	todo/session.php	/^	private $changed = false;$/;"	v
+children	folders.php	/^					$children = null;$/;"	v
+children	folders.php	/^					$children = processNode($remaining, $top['rgt']);$/;"	v
+clear	tags.php	/^	public static function clear($aid)$/;"	f
+clearAndSet	tags.php	/^	public static function clearAndSet($aid, $tags)$/;"	f
+close	database.php	/^	function close()$/;"	f
+code	compiler.php	/^    private function code($str)$/;"	f
+commit	database.php	/^	public function commit()$/;"	f
+compile	compiler.php	/^	function compile() $/;"	f
+compile_append	compiler.php	/^	private function compile_append($cap)$/;"	f
+compile_block	compiler.php	/^    private function compile_block($end_tags = array('end'))$/;"	f
+compile_capture	compiler.php	/^	private function compile_capture($cap) $/;"	f
+compile_dir	template.php	/^		$compile_dir = null)$/;"	v
+compile_dir	template.php	/^	private $compile_dir = 'compiled\/';$/;"	v
+compile_foreach	compiler.php	/^	private function compile_foreach($st) $/;"	f
+compile_funcall	compiler.php	/^    private function compile_funcall($func, $args)$/;"	f
+compile_if	compiler.php	/^	private function compile_if($st) $/;"	f
+compile_variable	compiler.php	/^    private function compile_variable($var) $/;"	f
+compiled	compiler.php	/^        $compiled = $this->consume_toNextTag();$/;"	v
+connection	database.php	/^	public function connection()$/;"	f
+consume_append	compiler.php	/^	private function consume_append()$/;"	f
+consume_args	compiler.php	/^	private function consume_args() $/;"	f
+consume_argument	compiler.php	/^	private function consume_argument() $/;"	f
+consume_capture	compiler.php	/^	private function consume_capture()$/;"	f
+consume_end	compiler.php	/^    private function consume_end()$/;"	f
+consume_foreach	compiler.php	/^	private function consume_foreach() $/;"	f
+consume_if	compiler.php	/^	private function consume_if()$/;"	f
+consume_keyword	compiler.php	/^    private function consume_keyword()$/;"	f
+consume_literal	compiler.php	/^    private function consume_literal($str)$/;"	f
+consume_literal_tag	compiler.php	/^	private function consume_literal_tag()$/;"	f
+consume_number	compiler.php	/^	private function consume_number() $/;"	f
+consume_string	compiler.php	/^    private function consume_string()$/;"	f
+consume_toNextTag	compiler.php	/^    private function consume_toNextTag()$/;"	f
+consume_variable	compiler.php	/^	private function consume_variable() $/;"	f
+contents	parser.php	/^			$contents = ob_get_clean();$/;"	v
+context	blog.php	/^	public static function context($row, $body = false, $raw = false)$/;"	f
+context	folders.php	/^	public static function context($row) $/;"	f
+context	tags.php	/^	private function context($tag)$/;"	f
+context	user.php	/^	public function context()$/;"	f
+cookieName	todo/session.php	/^	private $cookieName = "leafox";$/;"	v
+cookieName	user.php	/^	static public $cookieName = 'leafox';$/;"	v
+count	folders.php	/^	public function count($fid, $amount) {$/;"	f
+count	template.php	/^	public function count() $/;"	f
+create	user.php	/^	public static function create()$/;"	f
+createBoard	bbs.php	/^	public static function createBoard($title, $desc, $parent = null)$/;"	f
+createCookie	user.php	/^	public function createCookie()$/;"	f
+crop	todo/util.php	/^		$dest, $width, $crop = false)$/;"	v
+currentTag	parser.php	/^	public $currentTag = null;	$/;"	v
+d	template.php	/^		$d = round($what \/ (60*60*24));$/;"	v
+data	todo/util.php	/^		$data = exif_read_data($image);$/;"	v
+database	database.php	/^		$database = null, $host = 'localhost')$/;"	v
+date	todo/util.php	/^			$date = $data['DateTime'];$/;"	v
+date	todo/util.php	/^			$date = $data['DateTimeDigitized'];$/;"	v
+date	todo/util.php	/^			$date = $data['DateTimeOriginal'];$/;"	v
+db	database.php	/^$db = new DBHandle('root', 'checkbob', 'leafo');$/;"	v
+db	database.php	/^class db$/;"	c
+delTree	todo/util.php	/^	public static function delTree($target)$/;"	f
+delete	blog.php	/^	public static function delete($id) $/;"	f
+delete	folders.php	/^	public function delete($fid)$/;"	f
+delete	todo/session.php	/^	public function delete()$/;"	f
+deleteCookie	user.php	/^	public function deleteCookie()$/;"	f
+diff	folders.php	/^		$diff = $srgt - $slft + 1;$/;"	v
+diff	folders.php	/^		$diff = ($rgt - $lft) + 1;$/;"	v
+doc	parser.php	/^ * $doc = "contents";$/;"	v
+dst	folders.php	/^		$dst = intval($dst);$/;"	v
+dump	util.php	/^	static function dump()$/;"	f
+end	compiler.php	/^        $end = $EOF;$/;"	v
+end	folders.php	/^		function processNode(&$remaining, $end = 9999)$/;"	v
+end	template.php	/^	public function end()$/;"	f
+end_delim	compiler.php	/^    private $end_delim		= '}';		$/;"	v
+errors	validator.php	/^	private $errors = array();$/;"	v
+errors	validator.php	/^	public function errors()$/;"	f
+escape	database.php	/^	public function escape($string)$/;"	f
+escape	database.php	/^	public static function escape($what) $/;"	f
+exifTime	todo/util.php	/^	public static function exifTime($image)$/;"	f
+exifTimeFormatted	todo/util.php	/^	public static function exifTimeFormatted($image)$/;"	f
+f	folders.php	/^		$f = db::query("select * from {$this->table} where id = {$fid}$/;"	v
+f	todo/util.php	/^					if ($f == '.' || $f == '..') continue;$/;"	v
+f	util.php	/^	public function go($act = NULL, $f = NULL, $id = NULL)$/;"	v
+f	util.php	/^	public function to($act = NULL, $f = NULL, $id = NULL)$/;"	v
+f	util.php	/^	public function to($act = null, $f = null, $id = null)$/;"	v
+f	validator.php	/^			$f = 'v_'.$matches[1];$/;"	v
+failed	validator.php	/^					$failed = !$this->$f($this->post[$what]);$/;"	v
+failed	validator.php	/^					$failed = !$this->$f($this->post[$what], $param);$/;"	v
+failed	validator.php	/^			$failed = !$this->validateParam($what, $how) || $failed;$/;"	v
+failed	validator.php	/^		$failed = false;$/;"	v
+false	compiler.php	/^			$false = '';$/;"	v
+fetch	template.php	/^	public function fetch($file) $/;"	f
+fetchAssoc	database.php	/^	function fetchAssoc()$/;"	f
+fetchRow	database.php	/^	function fetchRow() $/;"	f
+fid	folders.php	/^		$fid = intval($fid);$/;"	v
+file	database.php	/^	public function query($q, $file = 0, $line = 0)$/;"	v
+file	database.php	/^	public static function query($q, $file = 0, $line = 0)$/;"	v
+fname	template.php	/^		$fname = $this->fetch($file);$/;"	v
+fname	template.php	/^		$fname = R::$r->base_path.$this->template_dir.$file;$/;"	v
+for	blog.php	/^	 * helper function for get functions$/;"	f
+for	todo/util.php	/^ * Utility class for misc methods$/;"	c
+found	compiler.php	/^            $found = substr($this->buffer, 0, 5);$/;"	v
+from	folders.php	/^			$from = intval($from);$/;"	v
+func	util.php	/^		$func = '_'.r::$r->func;$/;"	v
+funcs	template.php	/^	private $funcs = array();$/;"	v
+funcs	validator.php	/^		$funcs = explode('|', $how);$/;"	v
+get	blog.php	/^	public static function get($id, $raw = false)$/;"	f
+get	database.php	/^	public static function get()$/;"	f
+get	folders.php	/^	public function get($fid) $/;"	f
+getBoard	bbs.php	/^	public static function getBoard($id, $basic = true)$/;"	f
+getFor	tags.php	/^	public static function getFor($what)$/;"	f
+getForContext	blog.php	/^	private static function getForContext($where, $body = true, $join = array(), $select = '')$/;"	f
+getFromTag	blog.php	/^	public static function getFromTag($tag, $body = false)$/;"	f
+getWhere	blog.php	/^	public static function getWhere($where, $body = false, $raw = true)$/;"	f
+go	util.php	/^	public function go($act = NULL, $f = NULL, $id = NULL)$/;"	f
+grab	template.php	/^	public function grab($vname) $/;"	f
+grab_stack	template.php	/^	private $grab_stack = array();$/;"	v
+h	template.php	/^		$h = round($what \/ (60*60));$/;"	v
+hasErrors	validator.php	/^	public function hasErrors()$/;"	f
+hash	user.php	/^		$hash = mysql_real_escape_string($hash);$/;"	v
+hash	user.php	/^	static public function hash($string) $/;"	f
+height	todo/util.php	/^			$height = .75*$width;$/;"	v
+height	todo/util.php	/^		$dest, $width, $height = -1)$/;"	v
+height	todo/util.php	/^		$height = $width * .75;$/;"	v
+i	template.php	/^			if ($i > 1 && $i == $len - 1)$/;"	v
+id	bbs.php	/^		$id = intval($id);$/;"	v
+id	bbs.php	/^		$id = self::$tree->insert($title, $parent);$/;"	v
+id	blog.php	/^		$id = intval($id);$/;"	v
+id	user.php	/^		$id = intval($id);$/;"	v
+id	user.php	/^	public $id = 0;$/;"	v
+idFromName	user.php	/^	static public function idFromName($name)$/;"	f
+image	todo/util.php	/^			$image = @imagecreatefromgif($source);$/;"	v
+image	todo/util.php	/^			$image = @imagecreatefromjpeg($source);$/;"	v
+image	todo/util.php	/^			$image = @imagecreatefrompng($source);$/;"	v
+imageThumbnail	todo/util.php	/^	public static function imageThumbnail($source, $/;"	f
+info	todo/util.php	/^			$info = getimagesize($dest);$/;"	v
+info	todo/util.php	/^		$info = @getimagesize($source);$/;"	v
+info	user.php	/^	private $info = array(); \/\/ User information array$/;"	v
+insert	blog.php	/^	public static function insert($what, $update = null)$/;"	f
+insert	folders.php	/^	public function insert($name, $parent = null)$/;"	f
+insert	tags.php	/^	public static function insert($tag)$/;"	f
+insertId	database.php	/^	public function insertId() {$/;"	f
+insertId	database.php	/^	public static function insertId()$/;"	f
+insertSorted	folders.php	/^	public static function insertSorted($what, &$array)$/;"	f
+insertSorted	tags.php	/^	private static function insertSorted($what, &$array)$/;"	f
+install	bbs.php	/^	public static function install()$/;"	f
+install	blog.php	/^	public static function install()$/;"	f
+install	folders.php	/^	public static function install($table = 'folders')$/;"	f
+install	tags.php	/^	public static function install()$/;"	f
+install	user.php	/^	public function install() {$/;"	f
+joinString	blog.php	/^		$joinString = '';$/;"	v
+k	blog.php	/^			foreach ($join as $k=>$v)$/;"	v
+k	blog.php	/^		foreach ($data as $k=>$v) {$/;"	v
+k	validator.php	/^		foreach ($this->post as $k => $v)$/;"	v
+key	compiler.php	/^		$key = $this->consume_keyword();$/;"	v
+key	user.php	/^			foreach ($this->altered as $key=>$value) {$/;"	v
+key	user.php	/^			foreach ($this->info as $key=>$value) {$/;"	v
+key	validator.php	/^			foreach($_POST as $key=>$value) $/;"	v
+latest	blog.php	/^	public static function latest($from = null, $body = true)$/;"	f
+len	template.php	/^		for ($i = 0, $len = count($list); $i < $len; $i++)$/;"	v
+length	template.php	/^	private function template_truncate($what, $length = 40, $attach = null)$/;"	v
+lft	folders.php	/^				$lft = $min + 1;$/;"	v
+lft	folders.php	/^				$lft = 1;$/;"	v
+lft	folders.php	/^			$lft = $rgt; \/\/ insert as last element in parent$/;"	v
+lft	folders.php	/^	public $lft = -1;$/;"	v
+line	parser.php	/^			$line = '<li>'.substr($line, 1).'<\/li>';$/;"	v
+line	parser.php	/^			$line = preg_replace_callback($/;"	v
+line	parser.php	/^		$line = trim($line);$/;"	v
+line	parser.php	/^		\/\/ $line = trim($line);$/;"	v
+lines	parser.php	/^		$lines = explode("\\n", $data);$/;"	v
+link_table	tags.php	/^	static public $link_table = 'tag_link';$/;"	v
+linkme	util.php	/^	public function linkme()$/;"	f
+list	folders.php	/^		$list = array();$/;"	v
+list	template.php	/^		$list = array(); \/\/ final list of times$/;"	v
+load	database.php	/^	public static function load($ref) {$/;"	f
+load	user.php	/^	public static function load($id)$/;"	f
+load	util.php	/^	static function load($initial)$/;"	f
+loadAll	folders.php	/^	static public function loadAll($lft, $rgt, $name, $folders)$/;"	f
+loadFromLeft	folders.php	/^	static public function loadFromLeft($lft, $folders)$/;"	f
+loadFromName	folders.php	/^	static public function loadFromName($name, $folders)$/;"	f
+loggedIn	user.php	/^	public $loggedIn = false;$/;"	v
+login	user.php	/^	public static function login($id, $hash)$/;"	f
+m	template.php	/^		$m = round($what \/ 60);$/;"	v
+merge	template.php	/^	public function merge($array) $/;"	f
+messages	validator.php	/^	public $messages = array($/;"	v
+move	folders.php	/^	public function move($src, $dst) $/;"	f
+n_height	todo/util.php	/^			$n_height = $c_height * $r;$/;"	v
+n_height	todo/util.php	/^		if ($height > 0) $n_height = $height;$/;"	v
+n_width	todo/util.php	/^		$n_width = $width;$/;"	v
+name	folders.php	/^		$name = db::escape($name);$/;"	v
+name	folders.php	/^		$name = trim($name);$/;"	v
+name	folders.php	/^	public $name = '';$/;"	v
+name	user.php	/^	public $name = "Guest";$/;"	v
+name	validator.php	/^				$name = str_replace('_', ' ', $what);$/;"	v
+new	todo/util.php	/^			$new = imagecreatetruecolor($width, $height);$/;"	v
+new	todo/util.php	/^		$new = imagecreatetruecolor($n_width, $n_height);$/;"	v
+next	compiler.php	/^                $next = $this->peek_keyword();$/;"	v
+noffset	folders.php	/^		$noffset = $srgt + 1; \/\/ (negative offset)$/;"	v
+num_queries	database.php	/^	public $num_queries = 0;$/;"	v
+old	todo/util.php	/^			$old = imagecreatefromjpeg($dest);$/;"	v
+orphans	tags.php	/^		$orphans = array();$/;"	v
+out	compiler.php	/^		$out = '$this->v__'.$this->consume_keyword();$/;"	v
+p	blog.php	/^			$p = new WikiParser();$/;"	v
+p	parser.php	/^ * $p = new WikiParser;$/;"	v
+param	validator.php	/^			$param = isset($matches[3]) ? $matches[3] : false;$/;"	v
+parent	bbs.php	/^	public static function createBoard($title, $desc, $parent = null)$/;"	v
+parent	folders.php	/^	public function insert($name, $parent = null)$/;"	v
+parse	parser.php	/^	public function parse($data)$/;"	f
+parseLine	parser.php	/^	private function parseLine($line)$/;"	f
+parsed	parser.php	/^			$parsed = true;$/;"	v
+pathFrom	folders.php	/^	public function pathFrom($fid)$/;"	f
+peek_keyword	compiler.php	/^	private function peek_keyword() $/;"	f
+pid	folders.php	/^		else $pid = intval($parent);$/;"	v
+pid	folders.php	/^		if ($parent == null) $pid = null;$/;"	v
+post	validator.php	/^	public function post()$/;"	f
+postTopic	bbs.php	/^	public static function postTopic($parent, $user, $topic = array())$/;"	f
+pre	compiler.php	/^				$pre = '!';$/;"	v
+pre	compiler.php	/^			$pre = '';$/;"	v
+processNode	folders.php	/^		function processNode(&$remaining, $end = 9999)$/;"	f
+purgeOrphans	tags.php	/^	public static function purgeOrphans()$/;"	f
+pushError	validator.php	/^	public function pushError($msg) $/;"	f
+q	folders.php	/^			$q = "select * from {$this->table} order by lft asc";$/;"	v
+q	folders.php	/^			$q = "select * from {$this->table} where $/;"	v
+q	user.php	/^		$q = db::query("select * from `members` where$/;"	v
+q	user.php	/^		$q = db::query('describe `members`');$/;"	v
+q	user.php	/^		$q = db::query('select * from `members` where id = '.$id);	$/;"	v
+query	blog.php	/^		$query = 'update '.self::$table.' set ';$/;"	v
+query	blog.php	/^		$query = substr($query, 0, -2).' where id = '.$id;$/;"	v
+query	database.php	/^	public function query($q, $file = 0, $line = 0)$/;"	f
+query	database.php	/^	public static function query($q, $file = 0, $line = 0)$/;"	f
+query	user.php	/^			$query = 'insert into `members` set ';$/;"	v
+query	user.php	/^			$query = 'update `members` set ';$/;"	v
+query	user.php	/^			$query = substr($query, 0, -2); \/\/ trim trailing commma$/;"	v
+query	user.php	/^			$query = substr($query, 0, -2);$/;"	v
+query_history	database.php	/^	public $query_history = array();$/;"	v
+r	blog.php	/^		$r = Blog::getForContext($where, $body);$/;"	v
+r	blog.php	/^		$r = Blog::getForContext($where.' order by post_date desc limit 15', $body);$/;"	v
+r	blog.php	/^		$r = Blog::getForContext('a.id = '.$id, true);$/;"	v
+r	blog.php	/^		$r = Blog::getForContext('tag_link.tid = '.$tag, $/;"	v
+r	database.php	/^		$r = mysql_query($q);$/;"	v
+r	folders.php	/^		$r = db::query("select * from {$this->table} $/;"	v
+r	folders.php	/^		$r = db::query($q);$/;"	v
+r	tags.php	/^		$r = db::query("select count(*) as `count`, t.* $/;"	v
+r	tags.php	/^		$r = db::query("select r.aid, t.id, t.tag from ".Tags::$link_table." as r$/;"	v
+r	tags.php	/^		$r = db::query("select t.id$/;"	v
+r	todo/util.php	/^			$r = $width \/ $c_width;$/;"	v
+r	util.php	/^		$r = r::$r;$/;"	v
+r	util.php	/^class r $/;"	c
+raw	blog.php	/^	public static function get($id, $raw = false)$/;"	v
+real	tags.php	/^		$real = strtolower(db::escape($tag));$/;"	v
+ref	database.php	/^	private static $ref = null;$/;"	v
+relate	tags.php	/^	public static function relate($aid, $tag)$/;"	f
+rename	folders.php	/^	public function rename($fid, $name)$/;"	f
+render	template.php	/^	public function render($file)$/;"	f
+render_block_tag	parser.php	/^	private function render_block_tag($tag, $content)$/;"	f
+render_decoration	parser.php	/^	private function render_decoration($d)$/;"	f
+render_header	parser.php	/^	private function render_header($h)$/;"	f
+render_link	parser.php	/^	private function render_link($l)$/;"	f
+render_paragraph	parser.php	/^	private function render_paragraph($p)$/;"	f
+render_tag	parser.php	/^	private function render_tag($t)$/;"	f
+resource	database.php	/^	function resource() {$/;"	f
+rgt	folders.php	/^		$rgt = $lft + 1;$/;"	v
+rgt	folders.php	/^	public $rgt = -1;$/;"	v
+rollback	database.php	/^	public function rollback()$/;"	f
+rowsAffected	database.php	/^	public $rowsAffected = 0;$/;"	v
+s	template.php	/^		$s = $what;$/;"	v
+salt	user.php	/^	static private $salt = 'hello -my fog';$/;"	v
+sanitize	database.php	/^	public function sanitize($what)$/;"	f
+sanitize	database.php	/^	public static function sanitize($what)$/;"	f
+search	tags.php	/^	public static function search($tag)$/;"	f
+select	util.php	/^	public function select()$/;"	f
+session	todo/session.php	/^	private $session = array();$/;"	v
+set	blog.php	/^		$set = "set$/;"	v
+set	template.php	/^	public function set($what, &$to)$/;"	f
+setState	parser.php	/^	private function setState($s)$/;"	f
+shellThumbnail	todo/util.php	/^	public static function shellThumbnail($source,$/;"	f
+shift	folders.php	/^			$shift = - $slft + 1 + $dlft;$/;"	v
+shift	folders.php	/^			$shift = -$slft + 1 + $max;$/;"	v
+single	tags.php	/^			$single = true;$/;"	v
+sort	tags.php	/^	public static function tagCount($max = 10, $sort = false)$/;"	v
+src	folders.php	/^		$src = intval($src);$/;"	v
+st	compiler.php	/^		$st = array();$/;"	v
+startTransaction	database.php	/^	public function startTransaction()$/;"	f
+start_delim	compiler.php	/^    private $start_delim	= '{';$/;"	v
+state	parser.php	/^	private $state = 0;$/;"	v
+statement	compiler.php	/^		$statement = array();$/;"	v
+styles	parser.php	/^		$styles = array($/;"	v
+success	validator.php	/^	public function success()$/;"	f
+table	blog.php	/^	static public $table = 'blog';$/;"	v
+table	tags.php	/^	static public $table = 'tags';$/;"	v
+table_boards	bbs.php	/^	public static $table_boards = 'board_folders';$/;"	v
+table_posts	bbs.php	/^	public static $table_posts = 'board_posts';$/;"	v
+table_topics	bbs.php	/^	public static $table_topics = 'board_topics';$/;"	v
+tag	compiler.php	/^                $tag = $this->consume_keyword();$/;"	v
+tag	parser.php	/^		$tag = $styles[strlen($d[1])];$/;"	v
+tag	parser.php	/^		$tag = 'h'.(strlen($h[1]) - 1);$/;"	v
+tag	parser.php	/^		$tag = strtolower($t[1]);$/;"	v
+tag	parser.php	/^		if (!$tag) $tag = 'b';$/;"	v
+tag	tags.php	/^		$tag = str_replace('_', ' ', $tag);$/;"	v
+tagCount	tags.php	/^	public static function tagCount($max = 10, $sort = false)$/;"	f
+tags	tags.php	/^		$tags = array();$/;"	v
+tagset	tags.php	/^		$tagset = array();$/;"	v
+target	template.php	/^		$target = $/;"	v
+template_alternate	template.php	/^	private function template_alternate() {$/;"	f
+template_dir	template.php	/^	private $template_dir = 'templates\/';$/;"	v
+template_implode	template.php	/^	private function template_implode($glue, $array) {$/;"	f
+template_timestring	template.php	/^	private function template_timestring($what)$/;"	f
+template_truncate	template.php	/^	private function template_truncate($what, $length = 40, $attach = null)$/;"	f
+template_url	template.php	/^		$template_url = r::$r->base_url.$this->template_dir;$/;"	v
+that	util.php	/^ * this is a cheap ass linking class that doesn't depend on mod rewrite$/;"	c
+tid	tags.php	/^		$tid = Tags::insert($tag);$/;"	v
+time	bbs.php	/^		$time = time();$/;"	v
+timestamp	todo/util.php	/^	public static function timestamp($date)$/;"	f
+title	parser.php	/^			$title = $l[1];$/;"	v
+title	parser.php	/^			$title = $l[2];$/;"	v
+tmp	todo/util.php	/^		$tmp = tempnam('\/tmp', 'images_mid');$/;"	v
+to	template.php	/^	 * Bind a function to template$/;"	f
+to	template.php	/^	 * Magic function to set template varialbe$/;"	f
+to	util.php	/^	public function to($act = NULL, $f = NULL, $id = NULL)$/;"	f
+to	util.php	/^	public function to($act = null, $f = null, $id = null)$/;"	f
+top	folders.php	/^				$top = $remaining[0];$/;"	v
+top	folders.php	/^			$top = $remaining[0];$/;"	v
+topic	bbs.php	/^	public static function postTopic($parent, $user, $topic = array())$/;"	v
+topic_id	bbs.php	/^		$topic_id = db::insertId();$/;"	v
+transaction	database.php	/^	private $transaction = false;$/;"	v
+tree	folders.php	/^			$tree = array();$/;"	v
+tree	folders.php	/^		$tree = processNode($nodes);		$/;"	v
+tree	folders.php	/^	public function tree($from = null)$/;"	f
+trigger	validator.php	/^	static public function validate($vars, $trigger = 'form_submit')$/;"	v
+ty	todo/util.php	/^			$ty = ($c_height\/2) - ($height\/2);$/;"	v
+u	user.php	/^		$u = new User();$/;"	v
+uninstall	user.php	/^	public function uninstall() {$/;"	f
+update	blog.php	/^	public static function insert($what, $update = null)$/;"	v
+update	blog.php	/^	public static function update($id, $data)$/;"	f
+update	user.php	/^	public function update() $/;"	f
+url	util.php	/^		$url = R::$r->act.$/;"	v
+user	user.php	/^		$user = new Guest();$/;"	v
+user	user.php	/^else $user = new Guest();$/;"	v
+v	template.php	/^		static $v = 0;$/;"	v
+v_email	validator.php	/^	protected function v_email($what)$/;"	f
+v_equal	validator.php	/^	protected function v_equal($what, $param)$/;"	f
+v_match	validator.php	/^	protected function v_match($what, $param)$/;"	f
+v_maximum	validator.php	/^	protected function v_maximum($what, $param)$/;"	f
+v_minimum	validator.php	/^	protected function v_minimum($what, $param)$/;"	f
+v_numeric	validator.php	/^	protected function v_numeric($what)$/;"	f
+v_required	validator.php	/^	protected function v_required($what)$/;"	f
+val	blog.php	/^			$val = db::sanitize($val);$/;"	v
+valid	validator.php	/^			$valid = $valid && !$failed;$/;"	v
+valid	validator.php	/^		$valid = true;$/;"	v
+validate	validator.php	/^	static public function validate($vars, $trigger = 'form_submit')$/;"	f
+validateParam	validator.php	/^	protected function validateParam($what, $how)$/;"	f
+vars	template.php	/^	private $vars = array(); \/\/ The template context$/;"	v
+version	util.php	/^	public static function version()$/;"	f
+vname	template.php	/^		$vname = array_pop($this->grab_stack);$/;"	v
+what	tags.php	/^			$what = array($what);$/;"	v
+what	template.php	/^		$what = $what % (60*60);$/;"	v
+what	template.php	/^		$what = $what % (60*60*24);$/;"	v
+what	template.php	/^		$what = $what % (60*60*24*356);$/;"	v
+what	template.php	/^		$what = $what % 60;$/;"	v
+what	validator.php	/^		foreach ($vars as $what=>$how) $/;"	v
+what	validator.php	/^		return $what === $param;$/;"	v
+what	validator.php	/^		return $what === $this->post[$param];$/;"	v
+where	blog.php	/^			$where = '1';$/;"	v
+where	blog.php	/^			$where = 'where a.folder in ('.implode(',',$from).')';$/;"	v
+y	template.php	/^		$y = round($what \/ (60*60*24*356));$/;"	v

@@ -1,0 +1,433 @@
+/**
+ * commented stuff needs to be removed
+ * I just didn't check if they are still being used
+ */
+
+
+body {
+	font: 11px verdana, Sans-serif;
+	/*background: url('images/backtest.png') 50% 0 no-repeat;*/
+	background-color: #262623;
+	margin: 0px 0px 0px 0px;
+	padding: 0px;
+}
+
+/* the site logo */
+h1#logo{
+	height: 74px;
+	margin: 0px;
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+#logo a:hover {
+	border: none;
+}
+
+/* header inside a block */
+h2, h3 {
+	font-family: calibri, helvetica;
+	font-size: 20px;
+	padding: 0px;
+	/*margin: 4px 0px 4px 0px;*/
+	margin: 0.25em 0em 0.125em 0em;
+	color: #fcfde1;
+}
+
+h3 {
+	font-size: 18px;
+}
+
+#small-links {
+	color: white;
+	background: black;
+	background: #151515;
+	margin-bottom: 4px;
+	padding: 4px;
+}
+
+#small-inner {
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#small-right {
+	float :right;
+}
+
+
+#wrapper-old {
+	color: white;
+	width: 920px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 24px;
+}
+
+#wrapper {
+	color: white;
+	padding-bottom: 24px;
+}
+
+#footer {
+	/* font: 9pt Sans-serif; */
+	text-align: center;
+	padding-top: 16px;
+	/* color: #fcfde1; */
+	color: #63684d;
+	/*background: black;*/
+	padding-bottom: 20px;
+}
+
+#debug {
+	color: #BBBB8F;
+	width: 800px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.block-border {
+	border: 1px solid black;
+	margin-bottom: 8px;
+}
+
+.block {
+	padding: 6px;
+	background: #3f3f2d; 
+	border-top: 1px solid #63633a;
+	border-left: 1px solid #63633a;
+	border-bottom: 1px solid #2a2a22;
+	border-right: 1px solid #2a2a22;
+}
+
+.block-footer {
+	padding: 6px;
+	background: #2a2a22;
+	border-top: 1px solid #474733;
+	border-left: 1px solid #474733;
+	border-bottom: 1px solid #31312a;
+	border-right: 1px solid #31312a;
+}
+
+
+
+a:link, a:visited {
+	color: #E560EC; /*purple*/
+	color: #c0e230;
+	color: #CEEB70;
+	color: #CDEC62;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+a:hover {
+	border-bottom: 1px solid #fa007d;
+}
+
+.sub {
+	color: #AFAF85;
+}
+
+.sub a {
+	color: #BCC4A1;
+}
+
+
+h1 a {
+	background: url('images/logo.gif') top left no-repeat;
+	width: 201px;
+	height: 74px;
+	display: block;
+	text-indent: -5000px;
+	overflow: hidden;
+}
+
+h1 a:hover {
+	text-decoration: none;
+}
+
+
+
+hr {
+	border: 0;
+	height: 1px;
+	background-color: #808080;
+}
+
+label {
+	display: block;
+}
+
+p {
+	padding: 4px;
+	margin: 0px;
+}
+
+table {
+	padding: 0px;
+	margin: 0px;
+}
+
+.odd {
+	background: #2a2a22;
+	/* border-top: 1px solid black; */
+	border-bottom: 1px solid #63633a;
+}
+
+
+.forum-header {
+	background-color: #EFEFEF;
+	padding: 4px;
+	margin-bottom: 4px;
+}
+
+.path {
+	padding: 0px 4px 4px 0px;
+}
+
+.captcha {
+	border: 1px solid #808080;
+}
+
+.error {
+	background: #fa007d; 
+	color: white;
+	padding: 6px;
+	margin-bottom: 4px;
+}
+
+.error h2 {
+	color: white;
+	border-bottom: 1px solid white;
+}
+
+.error pre {
+	font-size: 140%;
+}
+
+pre.code {
+	background: black;
+	background: #151515;
+	padding: 4px;
+}
+
+
+.disabled {
+	color: white;
+	background: #252627;
+	padding: 1em;
+	margin: 0.5em 0em 0.5em 0em;
+	font-size: 140%;
+}
+
+.highlight {
+	background: #49ccdf; 
+	color: white;
+	padding: 6px;
+	margin-bottom: 4px;
+}
+
+form, fieldset {
+	margin: 0px;
+}
+
+
+form .button {
+	color: #fcfde1;
+	background: #262624;
+	background: #3f3f2d;
+	border-top: 1px solid #63633a;
+	border-left: 1px solid #63633a;
+	border-bottom: 1px solid #2a2a22;
+	border-right: 1px solid #2a2a22;
+}
+
+.button.important {
+	background: #AE3A10;
+}
+
+form .text {
+	margin-bottom: 3px;
+	border: 0;
+	background: black;
+	background: #151515;
+	color: white;
+	border-bottom: 1px solid #63633a;
+	border-right: 1px solid #63633a;
+	border-top: 1px solid #2a2a22;
+	border-left: 1px solid #2a2a22;
+}
+
+textarea {
+	display: block;
+	width: 99%;
+	height: 300px;
+	padding: 2px;
+}
+
+textarea.small {
+	height: 100px;
+}
+
+
+ul {
+	margin: 0px 0px 6px 0px;
+	padding: 0px 0px 0px 30px;;
+}
+
+
+
+
+#board-tabs {
+	list-style: none;
+	margin: 0px 0px 0px 12px; 
+	padding: 0px;
+	height: 22px;
+}
+
+#board-tabs li {
+	float:left;
+	padding: 0px;
+	background: #2A2A22;
+	border: 1px solid #1A1A09;
+	border-bottom: none;
+	margin-right: 4px;
+}
+
+
+#board-tabs li.current {
+	background: #3F3F2D;
+	border: 1px solid black;
+	border-bottom: 1px solid #3F3F2D/*#2B2B1B*/;
+}
+
+#board-tabs li a {
+	height: 15px;
+	border: 1px solid #2A2A22;
+	padding: 2px 6px 2px 6px;
+	display: block;
+	font-size: 12px;
+	color: #979764;
+}
+
+#board-tabs li.current a {
+	height: 17px;
+	border: 1px solid #63633A;
+	border-bottom: none;
+	color: #BFBF81;
+}
+
+/**
+ * viewing a board
+ */
+.board-header {
+	color: #AFAF85;
+	padding: 4px 6px 4px 6px;
+	margin-bottom: 2px;
+	text-align: right;
+}
+
+.topic-block {
+	padding: 5px 3px 5px 3px;
+}
+
+
+.topic-title {
+	background: url('images/topic-off.gif') 0 0 no-repeat;
+	padding-left: 22px;
+}
+
+.topic-title a {
+	font: 14px Helvetica, Sans-serif;
+	font-weight: normal;
+}
+
+.topic-title.new a {
+	font-weight: bold;
+}
+
+.topic-title.new {
+	background-image: url('images/topic-on.gif');
+}
+
+.topic-details {
+	text-align: right;
+}
+
+/**
+ * viewing a topic
+ */
+.topic-header {
+	/*background: #11110C;*/
+	color: #AFAF85;
+	padding: 4px 6px 4px 6px;
+	margin-bottom: 6px;
+	border-bottom: 1px solid #AFAF85;
+}
+
+.topic-footer {
+	color: #AFAF85;
+	margin-top: 6px;
+	border-top: 1px solid #AFAF85;
+}
+
+
+.post-block {
+	padding: 4px;
+}
+
+.post-name a {
+	font: 18px Helvetica, Sans-serif;
+	font-weight: bold;
+}
+
+.post-body {
+	font: 14px Helvetica, Sans-serif;
+	padding: 4px 0px 4px 0px;
+}
+
+
+
+.pageselect { 
+	/* border: 1px solid red; */
+	background: black;
+	background: #151515;
+	padding: 0px 4px 0px 4px;
+}
+
+.pageselect td {
+	padding: 4px 4px 4px 4px;
+}
+
+.pageselect .current { 
+	background: #2D2D29;
+}
+
+
+
+/** gvim stuff **/
+.Statement { color: #f92672; font-weight: bold; }
+.Comment { color: #465457; }
+.Type { color: #66d9ef; }
+.Number { color: #ae81ff; }
+.Repeat { color: #f92672; font-weight: bold; }
+.Exception { color: #a6e22e; font-weight: bold; }
+.Function { color: #a6e22e; }
+.Conditional { color: #f92672; font-weight: bold; }
+.Boolean { color: #ae81ff; }
+.String { color: #e6db74; }
+.Structure { color: #66d9ef; }
+.StorageClass { color: #fd971f; font-style: italic; }
+.Define { color: #66d9ef; }
+.Operator { color: #f92672; }
+.Identifier { color: #fd971f; }
+.Delimiter { color: #8f8f8f; }
+.PreProc { color: #a6e22e; }
+
+.lnr { color: #bcbcbc; }
+/*
+.lnr { color: #bcbcbc; background-color: #232526; padding-left: 10px; margin-left: -24px; margin-right: 6px;}
+*/
